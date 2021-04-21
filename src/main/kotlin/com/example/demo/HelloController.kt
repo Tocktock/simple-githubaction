@@ -12,4 +12,9 @@ class HelloController {
     fun helloWorldMapping() : String {
         return "Hello World!!"
     }
+
+    @GetMapping("/lat-lon")
+    fun getLonLat() : String {
+        return "111.00 ,111.00"
+    }
 }
