@@ -17,4 +17,9 @@ class HelloController {
     fun getLonLat() : String {
         return "111.00 ,111.00"
     }
+
+    @GetMapping("/sendy")
+    fun getsendy() : String {
+        return "sendy"
+    }
 }
