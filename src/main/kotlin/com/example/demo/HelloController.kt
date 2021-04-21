@@ -23,4 +23,9 @@ class HelloController {
     fun getsendy() : String {
         return "sendy"
     }
+
+    @GetMapping("/itshard")
+    fun dohard() : String {
+        return "수고했어"
+    }
 }
