@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RestController
 @RequestMapping()
 class HelloController {
 
+    @GetMapping("/")
+    fun home() : String {
+        return "this is home"
+    }
+
     @GetMapping("/hello-world")
     fun helloWorldMapping() : String {
         return "Hello World!!"
