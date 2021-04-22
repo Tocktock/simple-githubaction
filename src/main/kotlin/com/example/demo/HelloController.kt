@@ -28,4 +28,9 @@ class HelloController {
     fun dohard() : String {
         return "수고했어"
     }
+
+    @GetMapping("/myload")
+    fun loadBalanced() : String {
+        return "load balanced page"
+    }
 }
