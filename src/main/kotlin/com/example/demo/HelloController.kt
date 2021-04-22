@@ -13,6 +13,11 @@ class HelloController {
         return "this is home"
     }
 
+    @GetMapping("/itsmylife")
+    fun itsnowornever() : String {
+        return "i'm gonna live for ever"
+    }
+
     @GetMapping("/hello-world")
     fun helloWorldMapping() : String {
         return "Hello World!!"
